@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.headings-container {
+  display: flex;
+}
+
+.heading {
+  padding: 8px;
+  border: 1px solid black;
+  /* margin-right: 5px; */
+  cursor: pointer;
+}
+
+.tabs-container {
+  border: 1px solid black;
+  height: 300px;
+}
+.btn {
+  background-color: blue;
+  color: white;
+  margin-top: 5px;
+  height: 30px;
+  width: 80px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: end;
+}
+
+.error {
+  color: red;
+}
